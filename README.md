@@ -38,7 +38,10 @@ The project is organized as follows:
                                         trajectories and force orientations,
                                         and the functions needed to extract     
                                         and manipulate such data. More details on 
-                                        a separate Notes.md file inside this folder.
+                                        a separate Notes.md file inside this folder. Dataset
+                                        from "Cooperative mixing through hydrodynamic 
+                                        interactions in Stylonychia lemnae" by R.Turuban, G.
+                                        Noselli, A. Beran, A. De Simone.
 
 - RESULTS_OF_EXPERIMENTS              : Stores the results of both Monte Carlo 
                                         simulations with synthetic populations 
