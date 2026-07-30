@@ -8,10 +8,10 @@ by R.Turuban, G.Noselli, A.Beran, A.De Simone.
 
 More details are contained in the documentation of each function.
 
- - Data_collect             :   Extracts data from the dataset so that it 
+ - **Data_collect**             :   Extracts data from the dataset so that it 
                                 is usable in numerical experiments.
  
- - extract_SSR_angles       :   Extracts a probability distribution
+ - **extract_SSR_angles**       :   Extracts a probability distribution
                                 for angles of SSRs of Stylonychia.
                                 REMARK: When used with the dataset provided, 
                                 change the sign of cells angles. In the dataset,
@@ -19,9 +19,9 @@ More details are contained in the documentation of each function.
                                 while in the code we use the convention of 
                                 considering counterclockwise angles as positive.  
 
-- compute_pmf_t             :   Computes the probability distributions of active
+- **compute_pmf_t**             :   Computes the probability distributions of active
                                 and inactive times for Stylonychia from 
                                 the available data.
 
-- apply_SSR_rotation_shift  :   Applies a fixed angle rotation to the forcing 
+- **apply_SSR_rotation_shift**  :   Applies a fixed angle rotation to the forcing 
                                 directions of the cells after every SSR event.
