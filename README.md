@@ -2,10 +2,10 @@
 
 We provide the codes for:
 
--   Numerical Monte Carlo simulations based on synthetic populations of 
+-   **Numerical Monte Carlo simulations** based on synthetic populations of 
     cells defined in the paper
   
--   Theoretical model based on binary collisions between tracers and
+-   **Theoretical model based on binary collisions** between tracers and
     their nearest neighbour
 
 More details can be found in the article.
@@ -15,26 +15,26 @@ More details can be found in the article.
 The project is organized as follows:
 
 # FUNCTIONS
-- Reg_Stokeslet_velocity_near_wall.m :  Function computing the velocity field
+- **Reg_Stokeslet_velocity_near_wall.m** :  Function computing the velocity field
                                         induced on a fluid by a regularised Stokeslet 
                                         above a no slip floor;
 
-- setup_paths                        :  Script to launch at the beginning. 
+- **setup_paths**                       :  Script to launch at the beginning. 
                                         See ##Setup.
 
 # SUBFOLDERS
-- Numerical_Simulations              :  Contains functions, script and data 
+- **Numerical_Simulations**              :  Contains functions, script and data 
                                         for Monte Carlo simulations of tracer 
                                         particles advected by a synthetic population 
                                         of cells. More details on a separate Notes.md
                                         file inside this folder.
 
-- Theoretical_Model                   : Contains the function and data for 
+- **Theoretical_Model**                   : Contains the function and data for 
                                         the theoretical binary collisions model.
                                         More details on a separate Notes.md
                                         file inside this folder.
  
-- RAW_DATA                            : Contains the raw Dataset of cells 
+- **RAW_DATA**                            : Contains the raw Dataset of cells 
                                         trajectories and force orientations,
                                         and the functions needed to extract     
                                         and manipulate such data. More details on 
@@ -43,7 +43,7 @@ The project is organized as follows:
                                         interactions in Stylonychia lemnae" by R.Turuban, G.
                                         Noselli, A. Beran, A. De Simone.
 
-- RESULTS_OF_EXPERIMENTS              : Stores the results of both Monte Carlo 
+- **RESULTS_OF_EXPERIMENTS**              : Stores the results of both Monte Carlo 
                                         simulations with synthetic populations 
                                         and of the binary collision model,
                                         saved in different subfolders. In the case
@@ -56,11 +56,11 @@ The project is organized as follows:
                                         the theoretical binary collision model.
                 
 
-- FIGURES                             : Figures used in the paper and in the 
+- **FIGURES**                             : Figures used in the paper and in the 
                                         Supporting Material, divided by
                                         the section they were used at.
 
-- MOVIES                              : Movies showing the typical motion of  
+- **MOVIES**                              : Movies showing the typical motion of  
                                         Stylonychia and of a tracer advected 
                                         by an ensemble of Stylonychia . 
                                         We report also the data and the 
