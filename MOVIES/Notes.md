@@ -6,19 +6,24 @@ corresponding movies.
 
 # Functions & Scripts
 
- - movie_traj            :  Given data on tracers and Stylonychia trajectories
+ - **movie_traj**            :  Given data on tracers and Stylonychia trajectories
                             and forcing directions, creates a video.
 
- - fit_trajectories     :   Linearly interpolates missing NaN values in the 
+ - **fit_trajectories**     :   Linearly interpolates missing NaN values in the 
                             data on Stylonychia trajectories and force orientations.
 
- - simulate_tracer      :   Computes the trajectory of a tracer particle subject
+ - **simulate_tracer**      :   Computes the trajectory of a tracer particle subject
                             to the action of an ensemble of cells.
-   Script_Movie1
- - Script_Movie2        :   Launch to recreate the corresponding movies.
-   Script_Movie3
+   
+ - **Script_Movie1, Script_Movie2, Script_Movie3**   :   Launch to recreate the corresponding movies.
+   
 
  
+# Data
+
+   
+-  **MOVIE1, MOVIE2, MOVIE3** :  Movies showing the typical behaviours of Stylonychia and of a tracer motion under the influence of a population of Stylonychia
+   
 
 
 # IMPORTANT REMARK
